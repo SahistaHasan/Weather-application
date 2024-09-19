@@ -1,0 +1,132 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#mainbox{
+    background-image: url();
+    background-size: cover;
+    background:
+}
+
+#mainbox{
+    height:100vh;
+    width:40vw;
+    background-image:linear-gradient(to right, rgb(201, 163, 247), rgb(121, 49, 137))
+   
+}
+body{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(36, 36, 36);
+}
+.inputcity{
+    height:6vh;
+    width:27vw;
+    border-radius: 20px;
+    border:none;
+    outline: none;
+    padding-left: 10px;
+   
+}
+.searchpng{
+    height:6vh;;
+    width:3vw;
+    border-radius: 50%;
+    border:none;
+    background-image: url(images/search.png);
+    background-size: 18px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.input{
+    display: flex;
+    position:relative;
+    top:4vh;
+    width:33vw;
+    justify-content: space-between;
+    left:3vw;
+    border: none;
+    outline: none;
+    
+}
+.weatherpng{
+    height:27vh;
+    width:14vw;
+    background-size: cover;
+    position:relative;
+    top: 17vh;
+    left:11vw;
+    background-image: url(images/clear.png);
+}
+.temp{
+font-family:serif;
+font-size: 6rem;
+color: white;
+position: relative;
+top:18vh;
+left:13vw;
+display: inline-block;
+}
+.place{
+    position: relative;
+    top:20vh;
+    left:14vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 800;
+}
+.humidity {
+    height:18vh;
+    width:10vw;
+    
+    position:relative;
+    top:25vh;
+    left:2vw;
+}
+.wind{
+    height:18vh;
+    width:10vw;
+    position:relative;
+    top:7.5vh;
+    left:28vw; 
+}
+.humiditypng , .windpng{
+height:7vh;
+width:4vw;
+position: relative;
+top:40px;
+}
+span{
+    display: block;
+    
+}
+.c{
+    display: inline-block;
+}
+.humiditydetails , .windspeed{
+    height:7vh;
+    width:6vw;
+    position:relative;
+    left:5vw;
+    bottom:1vh;
+    color:rgb(255, 255, 255);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+p, sup {
+    font-family:serif;
+font-size: 6rem;
+color: white;
+position: relative;
+top:18vh;
+left:13vw;
+}
+sup{
+    font-size:3rem;
+    position:relative;
+    top:12vh;
+}
